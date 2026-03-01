@@ -30,7 +30,7 @@
 <body>
 
 <div class="container">
-    <h1>Welcome to TES Institute pasalapudi</h1>
+    <h1>Welcome to TES Institute</h1>
     <p>Providing Quality Technical Education</p>
     <p>Build Tool: Maven</p>
     <p>Status: Application is running successfully</p>

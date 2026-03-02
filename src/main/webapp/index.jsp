@@ -8,33 +8,22 @@
             font-family: Arial;
             background-color: #f4f4f4;
             text-align: center;
-        }
-        .container {
             margin-top: 100px;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            width: 400px;
-            margin-left: auto;
-            margin-right: auto;
-            box-shadow: 0px 0px 10px gray;
-        }
-        h1 {
-            color: #2c3e50;
         }
         p {
-            color: #555;
+            font-size: 20px;
+            color: #2c3e50;
+            margin: 30px 0;   /* space between sentences */
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>sssssssssssWelcome to TES Institute ...sss..  haiii</h1>
-    <p>Providing Quality Technical Education</p>
-    <p>Build Tool: Maven</p>
-    <p>Status: Application is running successfully</p>
-</div>
+<p>nenu kodithe medical testslu cheimchukovadaniki ne astulu ammina saripovu</p>
+
+<p>neku errror and bugs chusthe alupu vastundi emo naku oopuvastundi</p>
+
+<p>don't mess with the fire when fire fire the fire fire will be fine i am fire iam the fire</p>
 
 </body>
 </html>

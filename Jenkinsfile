@@ -3,6 +3,17 @@ pipeline {
 
     stages {
 
+         stage('Download from Git') {
+            steps {
+               checkout scmGit(
+                 branches: [[name: '*/main']],
+                 userRemoteConfigs: [[
+                   url: 'https://github.com/satyanarayana-24/frontend_dep_docker_lakshman.git'
+                 ]]
+               )
+            }
+        }
+
         stage('Build Maven') {
             steps {
                 sh 'mvn clean package'
